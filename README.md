@@ -1,3 +1,68 @@
+
+# CVestW3: Secure Token Vesting Contract for Web3
+
+> A professional, auditable Solidity smart contract for managing ERC-20 token vesting schedules with cliff and linear release.
+
+[![Solidity](https://img.shields.io/badge/Solidity-0.8.x-363636?logo=solidity)](https://soliditylang.org/)
+[![License](https://img.shields.io/badge/License-Commercial-blue)]((https://cvestw3.lemonsqueezy.com/))
+
+## 🚀 Get the Full Source Code
+
+**This repository contains documentation and interfaces only.**
+The complete, ready-to-deploy source code, test suite, and deployment scripts are available for purchase.
+
+**[👉 Purchase on Lemon Squeezy](https://cvestw3.lemonsqueezy.com/)**
+
+---
+
+## Overview
+
+This contract provides a secure way to lock ERC-20 tokens and release them to a beneficiary according to a customizable vesting schedule. It's ideal for team allocations, investor lock-ups, and advisor grants.
+
+![Vesting Workflow](./assets/vesting-workflow.png)
+
+## ✨ Features
+
+*   **Cliff Period**: Tokens are fully locked until a specified cliff date.
+*   **Linear Vesting**: Tokens release linearly after the cliff period ends.
+*   **Beneficiary-Only Release**: Only the designated beneficiary can claim vested tokens.
+*   **Reentrancy Guard**: Protected against reentrancy attacks using OpenZeppelin.
+*   **ERC-20 Compatible**: Works with any standard ERC-20 token.
+*   **Full Test Suite**: Comprehensive tests for edge cases and security.
+
+## 📖 Documentation
+
+*   [**Full Features Breakdown**](./docs/FEATURES.md)
+*   [**Usage Guide**](./docs/USAGE_GUIDE.md)
+*   [**License Agreement**](./LICENSE.md)
+*   [**Important Disclaimer**](./DISCLAIMER.md)
+
+## 🔌 Interface
+
+Developers can review the contract interface to see how to interact with it:
+
+```solidity
+// See the full interface in: ./interfaces/IVesting.sol
+interface IVesting {
+    function release() external;
+    function releasableAmount() external view returns (uint256);
+    function vestedAmount(uint256 timestamp) external view returns (uint256);
+    function getBeneficiary() external view returns (address);
+}
+
+🛡️ Security
+Built with OpenZeppelin libraries.
+
+Following industry best practices.
+
+Code is designed for auditability.
+
+💼 Commercial License
+This software is provided under a commercial license. Purchase includes the full source code and rights for commercial use.
+
+For questions: Contact us at [gigasynagent@gmail.com]
+
+
 ![Vesting Workflow Diagram](./assets/vesting-workflow.png)
 
 *The diagram above illustrates how tokens are locked during the cliff period and then released linearly over the vesting period. Only the beneficiary can release vested tokens at any time after the cliff ends.*
