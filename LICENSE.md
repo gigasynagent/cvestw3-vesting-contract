@@ -6,7 +6,7 @@ This repository contains documentation and interfaces for demonstration purposes
 
 ## For Full Access
 Purchase the complete source code, tests, and deployment scripts at:
-[Your Lemon Squeezy Store Link]
+[[Lemon Squeezy Store Link](https://cvestw3.lemonsqueezy.com/)]
 
 ## License Terms for Purchased Version
 The commercial license grants rights for personal and commercial use, but prohibits redistribution or resale of the source code.
