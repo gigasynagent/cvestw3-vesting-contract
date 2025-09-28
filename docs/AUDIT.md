@@ -47,7 +47,7 @@ We plan to pursue formal auditing as this project grows. Check back for updates.
 
 ## Reporting Security Issues
 
-If you discover any security issues, please report them responsibly to: [your-email@gmail.com]
+If you discover any security issues, please report them responsibly to: [gigasynagent@gmail.com]
 
 ---
 
