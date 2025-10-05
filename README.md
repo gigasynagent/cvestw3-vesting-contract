@@ -11,7 +11,7 @@
 **This repository contains documentation and interfaces only.**
 The complete, ready-to-deploy source code, test suite, and deployment scripts are available for purchase.
 
-**[👉 Purchase on Lemon Squeezy](https://cvestw3.lemonsqueezy.com/)**
+**[👉 Purchase on Gumroad](https://gigasyn.gumroad.com/l/cvestw3)**
 
 ---
 
